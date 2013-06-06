@@ -1,0 +1,29 @@
+<div class="container-narrow">
+
+    <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+            <li class="active"><button class="btn {{buttonStyle}}" ng-click="toggle()">{{buttonText}}</button></li>
+        </ul>
+        <h3 class="muted">Conway's Game of Life (<a href="http://www.youtube.com/watch?v=CgOcEZinQ2I&feature=share&list=FLwikA_t8e6TSJW-L-lAHkKw">video</a>)</h3>
+    </div>
+
+    <hr>
+
+    <canvas id="game" width="890" height="300" grid="100,50"></canvas>
+
+    <hr>
+
+    <div class="row-fluid">
+        <div class="span12">
+            <h4>Game Rules</h4>
+            <p ng-repeat="rule in gameRules">{{rule}}</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        <p></p>
+    </div>
+
+</div>
