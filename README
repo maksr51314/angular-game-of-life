@@ -1,1 +1,10 @@
 Example Game of Life implementation using AngularJS.
+
+To get up and running:
+
+1. install yeoman (yeoman.io)
+2. git clone this repo
+3. cd in to repo
+4. npm install
+5. bower install
+6. grunt server
